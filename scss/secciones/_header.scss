@@ -1,0 +1,30 @@
+body{
+    header{
+        nav{
+            div{
+                .imgLogo{
+                        max-width: 100px;
+                    }
+                div{
+                    justify-content: flex-end;
+                    padding: 1rem;
+                    .btn{
+                        border: $colorPrimario 1px solid;
+                        -webkit-border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        -ms-border-radius: 20px;
+                        -o-border-radius: 20px;
+                        background-color: $colorPrimario;
+                        font-family: 'Roboto', sans-serif;
+                        margin-right: 0.5em;
+                        border-radius: 20px;
+                        .btn-secondary{
+                            margin-bottom: 0.2em;
+                            color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

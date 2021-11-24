@@ -1,0 +1,24 @@
+.main-taller{
+    article{
+        p{
+            text-align: center;
+            color: $colorPrimario;
+            text-transform: uppercase;
+            text-decoration:underline;
+            margin-top: 20px;
+        }
+        .col{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            img, iframe{
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+}
+}
+    }
+
+}

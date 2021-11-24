@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        div{
+            input, textarea{
+                border: 1PX solid $colorSecundario;
+            margin-bottom: 2px;
+            }
+            button{
+                border: $colorPrimario 1px solid;
+                        -webkit-border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        -ms-border-radius: 20px;
+                        -o-border-radius: 20px;
+                        background-color: $colorPrimario;
+                        font-family: 'Roboto', sans-serif;
+                        border-radius: 20px;
+                        padding-right: 10px;
+                        padding-left: 10px;
+            }
+        }
+        
+    }
+}

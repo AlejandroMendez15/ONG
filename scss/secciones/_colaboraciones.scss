@@ -1,0 +1,51 @@
+.main-colab{
+    .containerColab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card{
+            background: none;
+            border: none;
+            .card-body{
+                .card-text{
+                    font-family: $fuenteDos;
+                    color: $colorSecundario;
+                } 
+            }
+        }
+    }
+    .container-body{
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        div{
+            margin: 10px;
+            :hover{
+                    opacity: 0;
+                }
+            a{
+                text-align: center;
+                text-decoration: none;
+                color: $colorSecundario;
+                h4{
+                background-color: rgba(255,255,255,.5);
+                backdrop-filter: blur(.6rem);
+                width: 100%;
+                height: 100%;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                opacity: 1;
+                transition: all .5s ease;
+                }
+            }
+        }
+    }
+}

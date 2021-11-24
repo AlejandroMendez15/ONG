@@ -1,0 +1,11 @@
+$dimension: 200px;
+@each $institucion in ink, liceo {
+    .#{$institucion}-fondo{
+        width: $dimension * 2;
+        height: $dimension * 2;
+        background-image: url("../../images/colaboracion/#{$institucion}.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}

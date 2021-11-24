@@ -1,0 +1,25 @@
+.main-ventas{
+    .ventas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 60px;
+        border: 1px solid $colorSecundario;
+        border-radius: 10px;
+        padding: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background: linear-gradient(223deg, #eece4e, #fffece);
+        background-size: 200% 200%;
+        animation: AnimationName 10s ease infinite;
+
+@keyframes AnimationName {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+}
+}
