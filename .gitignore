@@ -1,0 +1,5 @@
+.gitignore
+node_modules/
+ackage-lock.json
+package.json
+scss/
