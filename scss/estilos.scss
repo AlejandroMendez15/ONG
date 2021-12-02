@@ -1,11 +1,17 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+	color: inherit;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
 }
 
+/* FIX PARA IMAGENES */
+img {
+	max-width: 100%;
+	height: auto;
+}
 @import './variables/colores';
 @import './variables/fonts';
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -19,13 +25,5 @@
 
 
 body{
-    background: linear-gradient(322deg, #fdefc7, #fffcdb, #ffffff);
-    background-size: 600% 600%;
-    animation: AnimationName 13s ease infinite;
-
-    @keyframes AnimationName {
-        0%{background-position:0% 17%}
-        50%{background-position:100% 84%}
-        100%{background-position:0% 17%}
-        } 
+    background-image: url(../background.svg);
 }

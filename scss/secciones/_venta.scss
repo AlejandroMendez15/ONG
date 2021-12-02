@@ -1,4 +1,7 @@
 .main-ventas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .ventas{
         display: flex;
         flex-direction: column;
@@ -15,6 +18,12 @@
         background: linear-gradient(223deg, #eece4e, #fffece);
         background-size: 200% 200%;
         animation: AnimationName 10s ease infinite;
+        .img-central{
+            border: 1px solid black;
+            display: flex;
+            background: #000000;
+            align-items: center;
+        }
 
 @keyframes AnimationName {
     0%{background-position:0% 20%}

@@ -1,25 +1,22 @@
 main{
     
     .heroSection{
-        height: calc(100vh - 100px);
 	background: url(../../main/hero.jpg) no-repeat center/cover;
 	background-attachment: fixed;
 	position: relative;
 		display: flex;
 		flex-flow: column;
 		justify-content: center;
+        height: 100vh;
         h1{
             font-family: $fuenteUno;
-            font-size: 3rem;
             text-transform: uppercase;
             color: $colorSecundario;
         }
         div{
-            margin: 2em;
             a{
                 text-decoration: none;
                 color: $fuenteDos;
-                font-size: 1.5rem;
                 color: $colorSecundario;
                 border: 1px solid $colorPrimario;
                 border-radius: 10px;
@@ -27,7 +24,6 @@ main{
                 -moz-border-radius: 10px;
                 -ms-border-radius: 10px;
                 -o-border-radius: 10px;
-                padding: 0.5em;
                 background: $colorPrimario;
             }
         }
@@ -47,33 +43,15 @@ main{
     .about-us{
         h2{
             font-family: $fuenteUno;
-            font-size: 2rem;
             text-transform: uppercase;
             color: $colorSecundario;
         }
         .containerUs{
-            margin-left: 60px;
-            display: grid;
-            width: 90%;
-		grid-template-areas: "imgUs us-txt";
-		align-content: space-between;
-            
-            .us-txt{
-            grid-area: us-txt;
-            }
+            display: flex;
+            flex-wrap: wrap;
             .imgUs{
-                grid-area: imgUs ;
-                max-width: 500px;
+                min-width: 250px;
             }
-        }
-    }
-}
-@media (max-width: 900px){
-.containerUs{
-    .imgUs{
-        display: grid;
-        grid-template-areas: "imgUs"
-                            "us-txt";
         }
     }
 }
